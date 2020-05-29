@@ -16,10 +16,10 @@
             ['OS=="win"',
               {
                   'library_dirs': [
-                      '../lib/'
+                      '../lib'
                   ],
                   'libraries': [
-                    '-l../lib//libmtp.lib'
+                    '-l../lib/libmtp.lib'
                   ],
                   'copies': [
                       {
