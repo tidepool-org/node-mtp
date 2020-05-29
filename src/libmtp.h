@@ -36,7 +36,9 @@
 #ifdef _MSC_VER
 #include <windows.h>
 #define __WIN32__
+#if _MSC_VER < 1900
 #define snprintf _snprintf
+#endif
 #define ssize_t SSIZE_T
 /*
  * Types that do not exist in Windows
@@ -1086,4 +1088,3 @@ int LIBMTP_Custom_Operation(LIBMTP_mtpdevice_t *, uint16_t, int, ...);
 #endif
 
 #endif /* LIBMTP_H_INCLUSION_GUARD */
-
