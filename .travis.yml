@@ -17,6 +17,9 @@ matrix:
     - os: osx
       osx_image: xcode9.4
     - os: linux
+    - os: windows
+env:
+- YARN_GPG=no # otherwise windows build hangs
 before_install:
   - if [ $TRAVIS_OS_NAME = linux ]; then sudo apt-get install libmtp-dev; else brew install libmtp; fi
 before_deploy:
