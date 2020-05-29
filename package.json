@@ -29,9 +29,6 @@
   "devDependencies": {
     "prebuildify": "3.0.4"
   },
-  "os": [
-    "!win32"
-  ],
   "cpu": [
     "x64"
   ]
