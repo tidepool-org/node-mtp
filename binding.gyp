@@ -25,7 +25,7 @@
                       {
                         'destination': '$(SolutionDir)$(ConfigurationName)',
                         'files': [
-                          '<(module_root_dir)/lib/libmtp-9.dll',
+                          '<(module_root_dir)/lib/libmtp-9.dll.dll',
                           '<(module_root_dir)/lib/libusb-1.0.dll'
                         ]
                       }
