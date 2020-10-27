@@ -1,3 +1,7 @@
+**DEPRECATED** 
+
+Please use https://github.com/tidepool-org/webmtp instead.
+
 # node-mtp
 
 Access devices over MTP using Node.js
