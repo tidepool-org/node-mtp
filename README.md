@@ -1,6 +1,6 @@
 **DEPRECATED** 
 
-Please use https://github.com/tidepool-org/webmtp instead.
+Please use https://github.com/tidepool-org/webmtp instead. `node-mtp` was a simple wrapper around the `libmtp` library, which requires native code to run. We rewrote the MTP functions in JS so that we could also run it in the browser. `webmtp` will use WebUSB in the browser, and `node-usb` in Node.js.
 
 # node-mtp
 
