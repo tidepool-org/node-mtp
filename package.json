@@ -1,6 +1,6 @@
 {
   "name": "node-mtp",
-  "version": "0.3.15",
+  "version": "0.3.18",
   "description": "Access devices over MTP using Node.js",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,11 @@
   "homepage": "https://github.com/tidepool-org/node-mtp#readme",
   "dependencies": {
     "napi-macros": "2.0.0",
-    "node-gyp-build": "4.2.1"
+    "node-gyp-build": "4.2.2"
   },
   "devDependencies": {
     "prebuildify": "3.0.4"
   },
-  "os": [
-    "!win32"
-  ],
   "cpu": [
     "x64"
   ]
